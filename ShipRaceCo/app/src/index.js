@@ -4,6 +4,7 @@ const BrowserWindow = electron.remote.BrowserWindow
 
 const playBtn = document.getElementById('playBtn')
 
+// Open game window
 playBtn.addEventListener('click', function(event){
     const modalPath = path.join('file://', __dirname, 'game.html')
     let win = new BrowserWindow({autoHideMenuBar: true, fullscreen: true})
