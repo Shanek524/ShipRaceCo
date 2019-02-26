@@ -1,5 +1,3 @@
-// Main js file used to manage app windows
-
 const electron = require('electron')
 const { app, BrowserWindow, Menu } = require('electron')
 const path = require('path')
